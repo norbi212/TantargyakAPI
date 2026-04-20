@@ -1,0 +1,6 @@
+@ValachNorbert_TantargyakAPI_HostAddress = http://localhost:5263
+
+GET {{ValachNorbert_TantargyakAPI_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###

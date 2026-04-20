@@ -1,0 +1,234 @@
+{
+  "info": {
+    "_postman_id": "d546723f-36d1-4c28-ab4a-3f72d3a754f4",
+    "name": "Tantargyak",
+    "schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+    "_exporter_id": "48285324"
+  },
+  "item": [
+    {
+      "name": "Tanarok",
+      "item": [
+        {
+          "name": "POST Tanar",
+          "request": {
+            "method": "POST",
+            "header": [],
+            "body": {
+              "mode": "raw",
+              "raw": "{\r\n  \"nev\": \"Teszt Tanar\",\r\n  \"email\": \"tanar@email.com\",\r\n  \"belepesDatuma\": \"2026-04-16T10:07:21.613Z\"\r\n}",
+              "options": {
+                "raw": {
+                  "language": "json"
+                }
+              }
+            },
+            "url": {
+              "raw": "https://localhost:7084/api/Tanarok",
+              "protocol": "https",
+              "host": [
+                "localhost"
+              ],
+              "port": "7084",
+              "path": [
+                "api",
+                "Tanarok"
+              ]
+            }
+          },
+          "response": []
+        },
+        {
+          "name": "GET Tanarok",
+          "protocolProfileBehavior": {
+            "disableBodyPruning": true
+          },
+          "request": {
+            "method": "GET",
+            "header": [],
+            "body": {
+              "mode": "raw",
+              "raw": "{\r\n  \"nev\": \"Teszt Tanar\",\r\n  \"email\": \"tanar@email.com\",\r\n  \"belepesDatuma\": \"2026-04-16T10:07:21.613Z\"\r\n}"
+            },
+            "url": {
+              "raw": "https://localhost:7084/api/Tanarok",
+              "protocol": "https",
+              "host": [
+                "localhost"
+              ],
+              "port": "7084",
+              "path": [
+                "api",
+                "Tanarok"
+              ]
+            }
+          },
+          "response": []
+        },
+        {
+          "name": "GET Tanar - id",
+          "protocolProfileBehavior": {
+            "disableBodyPruning": true
+          },
+          "request": {
+            "method": "GET",
+            "header": [],
+            "body": {
+              "mode": "raw",
+              "raw": "{\r\n  \"nev\": \"Teszt Tanar\",\r\n  \"email\": \"tanar@email.com\",\r\n  \"belepesDatuma\": \"2026-04-16T10:07:21.613Z\"\r\n}"
+            },
+            "url": {
+              "raw": "https://localhost:7084/api/Tanarok/3",
+              "protocol": "https",
+              "host": [
+                "localhost"
+              ],
+              "port": "7084",
+              "path": [
+                "api",
+                "Tanarok",
+                "3"
+              ]
+            }
+          },
+          "response": []
+        },
+        {
+          "name": "PUT Tanar",
+          "request": {
+            "method": "PUT",
+            "header": [],
+            "body": {
+              "mode": "raw",
+              "raw": "{\r\n  \"id\": 1,\r\n  \"nev\": \"Teszt Elek\",\r\n  \"email\": \"elek_szerk@email.com\",\r\n  \"belepesDatuma\": \"2026-04-16T10:03:51.700Z\"\r\n}",
+              "options": {
+                "raw": {
+                  "language": "json"
+                }
+              }
+            },
+            "url": {
+              "raw": "https://localhost:7084/api/Tanarok/1",
+              "protocol": "https",
+              "host": [
+                "localhost"
+              ],
+              "port": "7084",
+              "path": [
+                "api",
+                "Tanarok",
+                "1"
+              ]
+            }
+          },
+          "response": []
+        }
+      ]
+    },
+    {
+      "name": "Tantargyak",
+      "item": [
+        {
+          "name": "GET Tantargyak",
+          "request": {
+            "method": "GET",
+            "header": [],
+            "url": {
+              "raw": "https://localhost:7084/api/Tantargyak",
+              "protocol": "https",
+              "host": [
+                "localhost"
+              ],
+              "port": "7084",
+              "path": [
+                "api",
+                "Tantargyak"
+              ]
+            }
+          },
+          "response": []
+        },
+        {
+          "name": "GET Tantargy - id",
+          "request": {
+            "method": "GET",
+            "header": [],
+            "url": {
+              "raw": "https://localhost:7084/api/Tantargyak/2",
+              "protocol": "https",
+              "host": [
+                "localhost"
+              ],
+              "port": "7084",
+              "path": [
+                "api",
+                "Tantargyak",
+                "2"
+              ]
+            }
+          },
+          "response": []
+        },
+        {
+          "name": "POST Tantargy",
+          "request": {
+            "method": "POST",
+            "header": [],
+            "body": {
+              "mode": "raw",
+              "raw": "{\r\n  \"tantargyNev\": \"Informatika\",\r\n  \"rovidLeiras\": \"programozás\",\r\n  \"evesOraszam\": 200,\r\n  \"tanarId\": 2\r\n}",
+              "options": {
+                "raw": {
+                  "language": "json"
+                }
+              }
+            },
+            "url": {
+              "raw": "https://localhost:7084/api/Tantargyak",
+              "protocol": "https",
+              "host": [
+                "localhost"
+              ],
+              "port": "7084",
+              "path": [
+                "api",
+                "Tantargyak"
+              ]
+            }
+          },
+          "response": []
+        },
+        {
+          "name": "PUT Tantargy",
+          "request": {
+            "method": "PUT",
+            "header": [],
+            "body": {
+              "mode": "raw",
+              "raw": "{\r\n  \"id\": 4,\r\n  \"tantargyNev\": \"Programozás\",\r\n  \"rovidLeiras\": \"backend\",\r\n  \"evesOraszam\": 150,\r\n  \"tanarNeve\": \"Teszt Elek\"\r\n}",
+              "options": {
+                "raw": {
+                  "language": "json"
+                }
+              }
+            },
+            "url": {
+              "raw": "https://localhost:7084/api/Tantargyak/4",
+              "protocol": "https",
+              "host": [
+                "localhost"
+              ],
+              "port": "7084",
+              "path": [
+                "api",
+                "Tantargyak",
+                "4"
+              ]
+            }
+          },
+          "response": []
+        }
+      ]
+    }
+  ]
+}

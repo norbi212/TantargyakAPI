@@ -1,0 +1,13 @@
+﻿using System.ComponentModel.DataAnnotations.Schema;
+using System.Text.Json.Serialization;
+
+namespace ValachNorbert_TantargyakAPI.DTOs.Tantargy
+{
+    public class CreateTantargyDto
+    {
+        public string TantargyNev { get; set; }
+        public string RovidLeiras { get; set; }
+        public int EvesOraszam { get; set; }
+        public int TanarId { get; set; }
+    }
+}
